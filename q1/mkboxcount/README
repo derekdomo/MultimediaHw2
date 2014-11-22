@@ -1,0 +1,22 @@
+###############################################
+# Author: Christos Faloutsos and Chenying Hou
+# Date: Oct. 2014
+###############################################
+
+USAGE
+  perl mkboxcount.pl -q2 -r0.0000000001 -R10000000000 -s10 dataset
+in general:
+  perl mkboxcount.pl -q2 -r<R_min> -R<R_max> -s<step> dataset
+
+GOAL
+  It computes the correlation integral { (radius #pairs) }
+  - dataset: the file of points
+  - 'R_min' : starting radius
+  - 'R_max' : final radius
+  - 's' : (multiplicative) step
+
+DEMO
+   type 
+       make
+   to see a demo, on a tiny file
+	

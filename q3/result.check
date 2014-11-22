@@ -1,0 +1,15 @@
+Insertion Cost: 1
+Substitution Cost: 1
+Deletion Cost: 1
+String1: survey, String2: surgery
+Matrix:
+0	1	2	3	4	5	6	7
+1	0	1	2	3	4	5	6
+2	1	0	1	2	3	4	5
+3	2	1	0	1	2	3	4
+4	3	2	1	1	2	3	4
+5	4	3	2	2	1	2	3
+6	5	4	3	3	2	2	2
+String Editing Distance: 2
+String editing path:
+_, _, _, S(v, g), _, I(r), _
